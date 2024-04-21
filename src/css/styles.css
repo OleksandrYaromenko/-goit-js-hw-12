@@ -1,8 +1,5 @@
 
-@import url('./reset.css');
 
-
-@import url('./header.css');
 
 
 
@@ -163,4 +160,25 @@
   background-color: #6c8cff;
   transform: translate(0, -3px);
   box-shadow: 0 20px 40px 0 rgba(11, 99, 246, 1);
+}
+
+
+.form-btn {
+  font-family: Montserrat;
+  width: 75px;
+  height: 40px;
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4e75ff;
+  color: #ffffff;
+  border: none;
+}
+
+.form-btn:hover,
+.load-btn:hover {
+  background: #6C8CFF;
 }
